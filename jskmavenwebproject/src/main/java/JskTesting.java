@@ -1,5 +1,7 @@
 
 //  http://localhost:8080/jskmavenwebproject-0.0.1-SNAPSHOT/JskTesting
+//   file:////home/jenskristensen/git
+
 
  
 import java.io.IOException;
@@ -30,7 +32,7 @@ public class JskTesting extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 	
-		response.getWriter().append("Served .... at: ").append(request.getContextPath());
+		response.getWriter().append("Served ...XXXXX. at: ").append(request.getContextPath());
   
 	}
 	
